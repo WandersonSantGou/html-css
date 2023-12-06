@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinamento últimos dias</title>
+</head>
+<body>
+    <h1>Mídias em HTML</h1>
+    <p>Imagens dinâmicas para que sejam acessiveis para qualquer público tanto do celular quanto do computador</p>
+    <picture>
+       <source media="(max-width:600px)" srcset="imagens/pequena2.png" type="image/png">
+        <source media="(max-width:900px )" srcset="imagens/media.png" type="image/png">
+        <img src="imagens/grande.png" alt="Imagem que se ajusta">
+    </picture>
+    <p>Um audio inserido com sucesso</p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/epic.mp3" type="audio/mpeg">
+    </audio> 
+    <audio preload="metadata" controls loop>
+        <source src="midia/trap.mp3" type="audio/mpeg">
+    </audio> 
+    <p><a href="midia/epic.7z" download type="aplication/zip">clink aqui para fazer o download</a></p>
+</body>
+</html>

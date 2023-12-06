@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@font-face {
+    font-family: 'idro';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+
+body {
+    background-color: #5bf59bd3;
+    margin: 0px;
+    
+}
+
+header {
+    background-image: linear-gradient(to bottom, #4fdc81 20%, #135d2d);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0px 20px 0px ;
+    
+}
+
+
+header > h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+}
+
+header > p {
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 92px;
+
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 25px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0px 0px 0px 10px;
+    
+}
+
+a:hover {
+    color: #1F733C;
+    background-color: #9beb9bbf;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main {
+    width: 800px;
+    background-color: #fff;
+    margin: auto;
+    padding: 30px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    box-shadow: 1px 1px 3px #135d2d;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#personalizar {
+    color: #135d2d;
+    font-family: 'idro';
+    font-size: 1.5em;
+}
+
+.secundario {
+    color: #135d2d;
+    font-family: 'idro';
+    background-image: linear-gradient(to right, #aff0afbf, #def2de66 );
+    padding: 0px 0px 0px 10px;
+}
+
+div#centro{
+    text-align: center;
+    background-color: #135d2d;
+    margin: 10px;
+    padding: 20px;
+}
+
+.meio {
+    text-align: center;
+}
+.color {
+    color:  #135d2d;
+    font-weight: bold;
+}
+
+.link {
+    color: blue;
+    
+    
+}
+
+.link:hover {
+    background-color: #fff;
+}
+
+div.rodape {
+    background-color: #17a84a;
+    padding: 5px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+}
+
+div.fundo {
+    background-color: #5bf59bd3;
+    margin: auto;
+    padding: 10px;
+    font-weight: 600;
+
+}
+
+div.alinhar {
+    display: inline-block;
+    
+
+}
+
+div.alinhar > li::before {
+    content:   '✔'  ;
+    text-align: justify;
+}
+
+div.espaço {
+    text-align: right;
+    padding: 0px 0px 0px 50px;
+}
+
+footer {
+    background-color: #135d2d;
+    text-align: center;
+    margin: 10px;
+    padding: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5bf59bd3;
+}
+
+footer > .clarear{
+    color: #fff;
+    
+}
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>nesta página veremos como se insere uma imagem dinâmica</p>
+     
+    <hr>
+    <picture>
+        <source media="(max-width:600px )" srcset="listadeimagens/amarelo.png" type="image/png">
+        <source media="(max-width:900px )" srcset="listadeimagens/rosa.png" type="image/png">
+        <img src="listadeimagens/verde.png" alt="Imagem flexível">      
+    </picture>
+    <p><a href="treinamento.html" rel="prev">Primeira Página</a></p>
+    <a href="treinamento2.html "target="_self" rel="prev">Página anterior</a>
+</body>
+</html>

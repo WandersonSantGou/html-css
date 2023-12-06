@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>nesta frase informaremos as navegador que iremos inserir uma imagem que se ajusta em determinados dispositivos</p>
+    <picture>
+        <source media="(max-width:600px )" srcset="imagem/carro200.jpg" type="image/jpg">
+        <source media="(max-width:900px )" srcset="imagem/carro600.jpg" type="image/jpg">
+        <img src="imagem/carro900.jpg" alt="Imagem que se reajusta">
+    </picture>
+</body>
+</html>
